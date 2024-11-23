@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
 import resusable_utility.Utility;
 
 public class LoginPage extends Utility 
@@ -38,6 +39,7 @@ public class LoginPage extends Utility
 		userPassword.sendKeys(password);
 		loginBtn.click();
 		String succesMsg = waitForLoginSuccesMsg(loginMsgToast);
+		//assertions		
 		Assert.assertEquals(succesMsg,"Login Successfully");
 		
 		ProductCatalouge productCatalouge=new ProductCatalouge(driver);
