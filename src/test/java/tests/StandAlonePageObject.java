@@ -13,7 +13,7 @@ import test_components.BaseTest;
 
 public class StandAlonePageObject extends BaseTest {
 
-	
+//product name	
 String productName="ZARA COAT 3";	
 	
 @Test
