@@ -17,7 +17,7 @@ public class LoginPage extends Utility
 			super(driver);
 			this.driver=driver;
 			PageFactory.initElements(driver,this);
-			
+//pagefactory used for @findby annotations			
 	}
 		
 	@FindBy(id="userEmail")
