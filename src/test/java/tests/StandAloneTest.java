@@ -17,7 +17,7 @@ import com.github.dockerjava.api.command.WaitContainerCmd;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StandAloneTest {
-//this is stand alone test for pageobject 
+//this is stand alone test for pageobject model
 	public static void main(String[] args) {
 
 
